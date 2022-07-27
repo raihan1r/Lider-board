@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arima', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/* top-players-styles */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+span {
+    color: blue;
+}
+
+.players img {
+    width: 56px;
+    height: 56px;
+}
+
+.conteinar {
+    background-color: #FFFF;
+    width: 870px;
+    height: 679px;
+    padding: 20px;
+}
+
+/* top player & top bloge */
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.top-title {
+    color: blue;
+
+}
+
+hr {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.top-h3 {
+    margin-left: 20px;
+
+}
+
+
+
+/* player */
+.player {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+/* top blog main1 */
+.main-blog-post {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+.blog-img img {
+
+    width: 224px;
+    height: 127px;
+
+}
+
+.blog-img {
+    margin-right: 20px;
+    text-align: justify;
+
+}
+
+
+
+.flex {
+    display: flex;
+
+
+}
+
+.img-artical {
+    margin-bottom: 20px;
+
+
+}
+
+.main01 {
+    margin-top: 20px;
+}
